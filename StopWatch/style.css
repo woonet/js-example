@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: ivory;
+}
+
+#StopWatch {
+  position: relative;
+  border-radius: 7px;
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+  height: auto;
+  width: 175px;
+  background-color: black;
+  font-size: 0.8em;
+  padding: 5px;
+  max-width: 320px;
+}
+
+#display {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: right;
+  font-size: 5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: inherit;
+  color: white;
+}
+
+#start,
+#stop {
+  text-align: center;
+  background: inherit;
+  color: white;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  margin: 10px 10px;
+  outline: solid;
+  outline-color: chartreuse;
+  border: none;
+  font-size: 1.4em;
+}
+
+button:active {
+  outline-color: darkmagenta;
+}

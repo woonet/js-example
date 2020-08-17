@@ -1,0 +1,37 @@
+{
+  "name": "js-example",
+  "version": "1.0.0",
+  "description": "javascript example project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woonet/js-example.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "ajax",
+    "jQuery",
+    "Promise",
+    "express",
+    "http-status-codes",
+    "react",
+    "heroku"
+  ],
+  "author": "woo sangsik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woonet/js-example/issues"
+  },
+  "homepage": "https://github.com/woonet/js-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "http-status-codes": "^1.4.0"
+  }
+}
